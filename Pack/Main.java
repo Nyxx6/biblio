@@ -94,7 +94,7 @@ public class Main {
 		b5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				MainMenu.dispose();
-				Return lm = new Return();
+				ListBorrow lm = new ListBorrow();
 				lm.frame.setVisible(true);
 			}
 		});
